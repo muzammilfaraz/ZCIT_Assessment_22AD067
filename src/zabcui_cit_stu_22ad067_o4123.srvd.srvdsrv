@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZABCC_CIT_STU_22AD067123'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZABCC_CIT_STU_22AD067123'
+  }
+}
+define service ZABCUI_CIT_STU_22AD067_O4123 provider contracts odata_v4_ui {
+  expose ZABCC_CIT_STU_22AD067123;
+}
